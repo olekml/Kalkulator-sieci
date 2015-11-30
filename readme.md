@@ -1,5 +1,5 @@
 <H1>Kalkulator sieciowy</H1>
-<H2>Aplikacja potrafi:</H2>
+<H2>Aplikacja umożliwia:</H2>
 <ul>
 <li>Sprawdzić czy dwa adresy IP należą do jednej sieci.</li>
 <li>Przeliczyć jednostki.</li>
