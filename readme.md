@@ -16,4 +16,4 @@
 <li>Obliczanie prędkości transferu danych.</li>
 </ul>
 </h2>
-<h2>Możliwa wersja podglądowa: <a href="http://kalkulatorsieci.5v.pl/kal/" target="_blank">Kliknij</a></h2
+<h2>Możliwa wersja podglądowa: <a href="http://kalkulatorsieci.5v.pl/kal/" target="_blank">Kliknij</a></h2>
