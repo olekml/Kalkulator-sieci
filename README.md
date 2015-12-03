@@ -1,4 +1,4 @@
-<h2><p>Kalkulator sieci</p></h2>
+<h2>Kalkulator sieci</h2>
 <hr>
 <p>Aplikacja webowa, jaką jest kalkulator sieciowy, aplikacja ta umożliwia wykonywanie obliczeń stosowanych w informatyce, możemy wykonać takie obliczenia jak:</p>
 <ul>
@@ -12,13 +12,9 @@
 <h2>Wykorzystane technologie:</h2>
 <ul>
 <li>HTML 5,</li>
-
 <li>CSS 3</li>
-
 <li>PHP 5.4</li>
-
 <li>Responsive Web Design</li>
-
 <li><a href="http://www.99lime.com/" target="_blank">HTML KickStart (Framework)</a></li>
 </ul>
 <hr>
