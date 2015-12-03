@@ -19,20 +19,17 @@
 <body>
 <body onload="odliczanie();">
 
-<div id="zegar" style="color: #FFFFFF; float: right; font-size:14px;"></div>
-
+	<div id="zegar" style="color: #FFFFFF; float: right; font-size:19px !important;"></div>
 <div class="grid">
-
-
 	<div class="col_12" style="margin-top:25px;">
 <center>
 <center><h2><p style="color: white;">Kalkulator sieci</p></h2></center>
 <div class="menu_1">
 
-<a href="#"><p style="background: #B600FF; color: white; ">Strona główna</p></a>
+<a href="index.php"><p style="background: #B600FF; color: white; ">Strona główna</p></a>
 <a href="math.php"><p style="background: red; color: white;">Przeliczanie jednostek</p> </a>
 <a href="speed.php"><p style="background: blue; color: white;">Obliczanie transferu danych</p> </a>
-<a href="ramka.php"><p style="background: #FF9B00;; color: white;">Obliczanie ramki sieciowej</p> </a>
+<a href="#"><p style="background: #FF9B00;; color: white;">Obliczanie ramki sieciowej</p> </a>
 <a href="adres.php"><p style="background: green; color: white;">Analiza adresów IPv4</p> </div></center></a>
 
 <div id="art" style="text-aligin: center; color:white;">

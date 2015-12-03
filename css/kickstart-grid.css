@@ -40,9 +40,61 @@ clear:both;
 *[class*="col_"].omega{margin-right:0;}
  
 .col_1  { width: 6.6666666666667%; }
+.menu_1 {
+  display: table;
+  height: 0px;
+      -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+.menu_1 p {
+    display: inline-block;
+    padding: 20px;
+    vertical-align: middle;
+    height: 6.5em;
+    text-align: center;
+    width: 170px;
+    font-size: 15px;
+    margin-right: -7px;
+	border:solid 5px #000000;
+	    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+
+a {
+	text-decoration:none;
+	color: white !important;
+}
+
+.menu_1 p:hover {
+color:black !important;
+font-weight: bold;
+-moz-box-shadow:inset 0px 0px 75px #000000;
+-webkit-box-shadow:inset 0px 0px 75px #000000;
+box-shadow:inset 0px 0px 75px #000000;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+
+}
+
+.zegar{
+font-size: 19px !important;
+}
+
+Read more http://www.creamsoft.com/blog/jak-wysrodkowac-element-na-stronie-www-za-pomoca-css-odpowiedz-na-wszystkie-pytania.html
 .col_2  { width: 15%; }
 .col_3  { width: 23.333333333333%; }
+
 .col_4  { width: 31.666666666667%; }
+
 .col_5  { width: 40%; }
 .col_6  { width: 48.333333333333%; }
 .col_7  { width: 56.666666666667%; }

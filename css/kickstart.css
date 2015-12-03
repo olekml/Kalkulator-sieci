@@ -526,3 +526,7 @@ clear:both;
 margin-top: -180px; /* wysokoœæ stopki z minusem :) */
 height: 180px;
 clear:both;}
+
+.cent{
+	text-align: center;
+}

@@ -19,15 +19,18 @@
 <body>
 <body onload="odliczanie();">
 
-	<center><div id="zegar" style="color: #FFFFFF;"></div></center>
-<div class="grid">
-	<div class="col_12"  style="margin-top:25px; margin-bottom:25px;">
-		<ul class="menu" style="margin-bottom:25px;">
-		<li><a href="index.php">Strona główna - wprowadzenie</a></li>
-<li><a href="math.php">Przelicznik miar stosowanych w informatyce</a></li>
-<li class="current"><a href="#">Obliczanie szybkości pobierania pliku</a></li>
-<li><a href="adres.php">Sprawdzanie dwóch adresów</a>
-</ul>
+<div id="zegar" style="color: #FFFFFF; float: right; font-size:14px;"></div>	<div class="grid">
+	<div class="col_12" style="margin-top:25px;">
+<center>
+<center><h2><p style="color: white;">Kalkulator sieci</p></h2></center>
+<div class="menu_1">
+
+<a href="index.php"><p style="background: #B600FF; color: white; ">Strona główna</p></a>
+<a href="math.php"><p style="background: red; color: white;">Przeliczanie jednostek</p> </a>
+<a href="#"><p style="background: blue; color: white;">Obliczanie transferu danych</p> </a>
+<a href="ramka.php"><p style="background: #FF9B00;; color: white;">Obliczanie ramki sieciowej</p> </a>
+<a href="adres.php"><p style="background: green; color: white;">Analiza adresów IPv4</p> </div></center></a>
+
 <form method="POST" action="">
 <center>
 <label for="rozmiar" style="color: white; text-align: center; ">Wprowadź rozmiar pliku:</label>
@@ -52,6 +55,10 @@ $MB = "";
 $sec = "";
 $min = "";
 $h = "";
+if ($rozmiar == 0 && $sele == 0){
+	echo "<div id=\"ip1a\" style=\"margin-top:25px; text-align:center;\"><label for=\"ip1a\" style=\"color: white; text-align: center; \"><p style=\"color: red;\">PAMIĘTAJ! Nie możesz wpisać 0 lub pustej wartości.</p></label> </div>";
+}
+else{
 switch ($sele)
 {
  case "KB":
@@ -81,6 +88,7 @@ switch ($sele)
 <li>Godzinach: $h godz</li>
 </ul></p>";
    break;
+}
 }
 
 ?>
