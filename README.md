@@ -19,5 +19,6 @@
 </ul>
 <hr>
 <h2>Wersja: 0.1</h2>
+<h2>Wersja demo: <a href="http://kalkulatorsieci.5v.pl/kal/" target="_blank">Kliknij!</a></h2>
 <hr>
 <h2>Autor: Mateusz Kozak</h2>
